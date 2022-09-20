@@ -1,0 +1,157 @@
+#title{
+    background-color:#959794;
+}
+.intro{
+    background-color: white;
+   
+}
+.c{
+    margin-left: 200px;
+}
+.model{
+    height: 400px;
+}
+.style{
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    margin-bottom: 50px;
+    color:#F1F4FFFF ;
+}
+.container-fluid{
+    padding: 5% 5%;
+}
+.tie{
+    height: 60px;
+    width: 60px;
+}
+
+.nav-item{
+    font-size: 20px;
+}
+.navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+}  
+.na{
+    margin-left: 500px;
+}
+.spot{
+    margin-top: 50px;
+}
+.img{
+    background-image: url("back.jpg");
+    border: 6px solid;
+}
+.cent{
+    text-align: center;
+}
+.brand{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 80px;
+}
+.trend{
+    text-align: center;
+    margin: 25px;
+    font-size: 50px;
+}
+
+.car{
+    background: linear-gradient(-100deg,white 50% ,deeppink 50%);
+    height: 70vh;
+    margin-top: 10px;
+    padding-top: 90px;
+    
+}
+.img-text{
+    width: 100%;
+    height: 300px;
+    display: block;
+    text-align: center;
+    padding: 40% 5%;
+    background: #262626;
+    color: #fff;
+    border-radius: 15px;
+}
+.img-text h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.img-text p{
+    font-size: 14px;
+
+}
+.single-box{
+    position: relative;
+    margin-bottom: 30px;
+}
+.img-area{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border:  5px solid #fff;
+    overflow: hidden;
+    top: 15px;
+    left: 125px;
+    border-radius: 50%;
+}
+.img-area img{
+    width: 100%;
+
+}
+.carousel-indicators{
+    left:0;
+    top: auto;
+    bottom: -70px;
+}
+.carousel-indicators button{
+    background: #000;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+
+}
+.carousel-indicators .active{
+background: #fff;
+}
+.cardsss{
+    margin-top: 5% ;
+    margin-bottom: 5%;
+   display: flex;
+   justify-content: center;
+}
+.loc{
+    padding-top: 70px;
+}
+.ss1{
+    border: 5px solid red; margin: 24px; height: 400px;width: 450px;
+
+}
+.ss2{
+    border: 5px solid green; margin: 24px;height: 400px;width: 450px;
+}
+.ss3{
+    border: 5px solid greenyellow;margin: 24px;height: 400px;width: 450px;
+}
+@media screen and (max-width: 670px) {
+    .img-area{
+        position: absolute;
+        width: 70px;
+        height: 60px;
+        border:  5px solid #fff;
+        overflow: hidden;
+        top: 8px;
+        left: 70px;
+        
+        border-radius: 50%;
+       
+ 
+    }
+    .cardsss{
+          margin-top: 160px;  
+    }
+   
+      
+}
+
